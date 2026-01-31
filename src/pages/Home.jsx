@@ -16,26 +16,26 @@ function Home() {
           <h2 className="text-white text-5xl md:text-7xl lg:text-8xl font-display italic leading-tight mb-8">
             Designing Spaces That <br /> Feel Like Home
           </h2>
-          <p className="text-cream/90 text-lg md:text-xl font-light mb-12 tracking-wide max-w-2xl mx-auto">
+          <p className="text-white text-lg md:text-xl font-light mb-12 tracking-wide max-w-2xl mx-auto">
             Bespoke luxury interiors crafted for the modern Indian lifestyle,
             blending heritage aesthetics with contemporary soul.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className=" flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/portfolio"
-              className="bg-primary text-charcoal px-10 py-4 rounded-full font-bold uppercase tracking-widest hover:scale-105 transition-transform"
+              className="bg-yellow-500 text-charcoal px-10 py-4 rounded-full font-bold uppercase tracking-widest hover:scale-105 transition-transform"
             >
               The Portfolio
             </Link>
             <Link
               to="/contact"
-              className="border border-white text-white px-10 py-4 rounded-full font-bold uppercase tracking-widest hover:bg-white hover:text-charcoal transition-all"
+              className="border border-white text-white px-10 py-4 rounded-full font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all"
             >
               Book a Consultation
             </Link>
           </div>
         </div>
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/50 animate-bounce">
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-white/50 animate-bounce">
           <span className="material-symbols-outlined text-3xl">
             keyboard_double_arrow_down
           </span>
@@ -47,7 +47,7 @@ function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-20 items-center">
             <div className="space-y-8">
-              <h3 className="text-primary text-sm font-bold uppercase tracking-[0.3em]">
+              <h3 className="text-yellow-500 text-sm font-bold uppercase tracking-[0.3em]">
                 Our Philosophy
               </h3>
               <h2 className="text-4xl md:text-6xl font-display leading-tight">
@@ -61,7 +61,7 @@ function Home() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-8 border-t border-cream dark:border-charcoal/50">
                 <div className="space-y-3">
-                  <span className="material-symbols-outlined text-primary text-3xl">
+                  <span className="material-symbols-outlined text-yellow-500 text-3xl">
                     auto_awesome
                   </span>
                   <h4 className="text-xl font-display">Impeccable Curation</h4>
@@ -71,7 +71,7 @@ function Home() {
                   </p>
                 </div>
                 <div className="space-y-3">
-                  <span className="material-symbols-outlined text-primary text-3xl">
+                  <span className="material-symbols-outlined text-yellow-500 text-3xl">
                     architecture
                   </span>
                   <h4 className="text-xl font-display">Tailored Elegance</h4>
@@ -91,7 +91,7 @@ function Home() {
                   }}
                 ></div>
               </div>
-              <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-primary/20 backdrop-blur-xl rounded-2xl flex items-center justify-center p-6 text-center border border-primary/30">
+              <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-yellow-500/20 backdrop-blur-xl rounded-2xl flex items-center justify-center p-6 text-center border border-yellow-500/30">
                 <p className="font-display italic text-lg leading-tight">
                   "Where heritage meets the future."
                 </p>
@@ -106,7 +106,7 @@ function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div className="max-w-2xl">
-              <h3 className="text-primary text-sm font-bold uppercase tracking-[0.3em] mb-4">
+              <h3 className="text-yellow-500 text-sm font-bold uppercase tracking-[0.3em] mb-4">
                 Portfolio
               </h3>
               <h2 className="text-4xl md:text-5xl font-display">
@@ -211,7 +211,7 @@ function Home() {
       {/* Testimonial Section */}
       <section className="py-24 bg-background-light dark:bg-background-dark">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <span className="material-symbols-outlined text-primary text-6xl mb-8 inline-block">
+          <span className="material-symbols-outlined text-yellow-500 text-6xl mb-8 inline-block">
             format_quote
           </span>
           <h3 className="text-3xl md:text-4xl font-display italic leading-relaxed mb-12">
@@ -220,7 +220,7 @@ function Home() {
             a modern aesthetic is truly unparalleled."
           </h3>
           <div className="flex flex-col items-center">
-            <div className="w-16 h-px bg-primary mb-6"></div>
+            <div className="w-16 h-px bg-yellow-500 mb-6"></div>
             <p className="text-sm font-bold uppercase tracking-[0.3em]">
               Vikram &amp; Priya Malhotra
             </p>
