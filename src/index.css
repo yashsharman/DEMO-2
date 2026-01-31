@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Noto Sans", sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: "Newsreader", serif;
+  }
+}
+
+.grain-overlay {
+  background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuDJuUWdOXci-OUClABp1w-WwD_ly4EDndZC8_TaOU33zajO5o7mCw1HNIaFdPw4awdrGbc-_d2VgYltLcyDjsf0NLtX9DMnyPkYcz6iG8-RbX_JvjvhKjhoIav6FbILmSMfjRjKrvK-JivXrrzYLeV16MZrjlSEGyWWWr3eJludqkPOiT9Vl5QQ0ntqIwaosRB4gA4IMffgGBlCLOMj9FAN7nZXML6nhzdDo3G0DWxiR86AzmgYaC3QoMVnazdDOkRxmROVSmClgYXN);
+  opacity: 0.03;
+  pointer-events: none;
+}
