@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import philosophyImg from "../assets/images/philosophy.jpg";
 
 function Services() {
   const services = [
@@ -212,7 +213,7 @@ function Services() {
               <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: 'url("/src/assets/images/philosophy.jpg")',
+                  backgroundImage: `url(${philosophyImg})`,
                 }}
               ></div>
             </div>

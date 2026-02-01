@@ -1,4 +1,10 @@
 import { Link } from "react-router-dom";
+import heroImg from "../assets/images/hero.jpg";
+import philosophyImg from "../assets/images/philosophy.jpg";
+import project1Img from "../assets/images/project1.jpg";
+import project2Img from "../assets/images/project2.jpg";
+import project3Img from "../assets/images/project3.jpg";
+import project4Img from "../assets/images/project4.jpg";
 
 function Home() {
   return (
@@ -8,8 +14,7 @@ function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage:
-              'linear-gradient(rgba(27, 23, 14, 0.4) 0%, rgba(27, 23, 14, 0.7) 100%), url("/src/assets/images/hero.jpg")',
+            backgroundImage: `linear-gradient(rgba(27, 23, 14, 0.4) 0%, rgba(27, 23, 14, 0.7) 100%), url(${heroImg})`,
           }}
         ></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
@@ -87,7 +92,7 @@ function Home() {
                 <div
                   className="w-full h-full bg-cover bg-center"
                   style={{
-                    backgroundImage: 'url("/src/assets/images/philosophy.jpg")',
+                    backgroundImage: `url(${philosophyImg})`,
                   }}
                 ></div>
               </div>
@@ -130,7 +135,7 @@ function Home() {
                 <div
                   className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
                   style={{
-                    backgroundImage: 'url("/src/assets/images/project1.jpg")',
+                    backgroundImage: `url(${project1Img})`,
                   }}
                 ></div>
                 <div className="absolute inset-0 bg-charcoal/20 group-hover:bg-charcoal/40 transition-colors"></div>
@@ -150,7 +155,7 @@ function Home() {
                 <div
                   className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
                   style={{
-                    backgroundImage: 'url("/src/assets/images/project2.jpg")',
+                    backgroundImage: `url(${project2Img})`,
                   }}
                 ></div>
                 <div className="absolute inset-0 bg-charcoal/20 group-hover:bg-charcoal/40 transition-colors"></div>
@@ -170,7 +175,7 @@ function Home() {
                 <div
                   className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
                   style={{
-                    backgroundImage: 'url("/src/assets/images/project3.jpg")',
+                    backgroundImage: `url(${project3Img})`,
                   }}
                 ></div>
                 <div className="absolute inset-0 bg-charcoal/20 group-hover:bg-charcoal/40 transition-colors"></div>
@@ -190,7 +195,7 @@ function Home() {
                 <div
                   className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
                   style={{
-                    backgroundImage: 'url("/src/assets/images/project4.jpg")',
+                    backgroundImage: `url(${project4Img})`,
                   }}
                 ></div>
                 <div className="absolute inset-0 bg-charcoal/20 group-hover:bg-charcoal/40 transition-colors"></div>

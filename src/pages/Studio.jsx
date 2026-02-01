@@ -1,27 +1,33 @@
+import philosophyImg from "../assets/images/philosophy.jpg";
+import heroImg from "../assets/images/hero.jpg";
+import project1Img from "../assets/images/project1.jpg";
+import project2Img from "../assets/images/project2.jpg";
+import project3Img from "../assets/images/project3.jpg";
+
 function Studio() {
   const team = [
     {
       name: "Ananya Mehta",
       role: "Founder & Principal Designer",
-      image: "/src/assets/images/hero.jpg",
+      image: heroImg,
       bio: "20+ years of experience in luxury residential and heritage design.",
     },
     {
       name: "Rohan Kapoor",
       role: "Senior Interior Architect",
-      image: "/src/assets/images/project1.jpg",
+      image: project1Img,
       bio: "Specializes in spatial planning and architectural detailing.",
     },
     {
       name: "Priya Sharma",
       role: "Lead Designer",
-      image: "/src/assets/images/project2.jpg",
+      image: project2Img,
       bio: "Expert in color theory and material curation.",
     },
     {
       name: "Vikram Singh",
       role: "Project Manager",
-      image: "/src/assets/images/project3.jpg",
+      image: project3Img,
       bio: "Ensures seamless execution from concept to completion.",
     },
   ];
@@ -80,7 +86,7 @@ function Studio() {
               <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: 'url("/src/assets/images/philosophy.jpg")',
+                  backgroundImage: `url(${philosophyImg})`,
                 }}
               ></div>
             </div>

@@ -1,3 +1,10 @@
+import project1Img from "../assets/images/project1.jpg";
+import project2Img from "../assets/images/project2.jpg";
+import project3Img from "../assets/images/project3.jpg";
+import project4Img from "../assets/images/project4.jpg";
+import heroImg from "../assets/images/hero.jpg";
+import philosophyImg from "../assets/images/philosophy.jpg";
+
 function Portfolio() {
   const projects = [
     {
@@ -6,7 +13,7 @@ function Portfolio() {
       location: "Mumbai, India",
       year: "2023",
       category: "Residential",
-      image: "/src/assets/images/project1.jpg",
+      image: project1Img,
       description:
         "A contemporary villa that seamlessly blends modern minimalism with traditional Indian elements. Dark stone facades meet warm wooden interiors.",
     },
@@ -16,7 +23,7 @@ function Portfolio() {
       location: "Delhi",
       year: "2023",
       category: "Residential",
-      image: "/src/assets/images/project2.jpg",
+      image: project2Img,
       description:
         "Luxurious penthouse featuring earthy tones and silk textures, creating an oasis of calm in the heart of the city.",
     },
@@ -26,7 +33,7 @@ function Portfolio() {
       location: "Udaipur",
       year: "2022",
       category: "Heritage Restoration",
-      image: "/src/assets/images/project3.jpg",
+      image: project3Img,
       description:
         "A meticulously restored heritage property that honors its historic roots while incorporating modern comforts.",
     },
@@ -36,7 +43,7 @@ function Portfolio() {
       location: "Bangalore",
       year: "2024",
       category: "Commercial",
-      image: "/src/assets/images/project4.jpg",
+      image: project4Img,
       description:
         "A creative workspace designed to inspire innovation, featuring flexible zones and biophilic design principles.",
     },
@@ -46,7 +53,7 @@ function Portfolio() {
       location: "Goa",
       year: "2023",
       category: "Residential",
-      image: "/src/assets/images/hero.jpg",
+      image: heroImg,
       description:
         "A beachfront residence that captures the essence of coastal living with natural materials and open spaces.",
     },
@@ -56,7 +63,7 @@ function Portfolio() {
       location: "Mumbai",
       year: "2024",
       category: "Residential",
-      image: "/src/assets/images/philosophy.jpg",
+      image: philosophyImg,
       description:
         "A serene apartment in the bustling city, designed as a peaceful retreat with thoughtful spatial planning.",
     },
